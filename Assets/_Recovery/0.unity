@@ -333,11 +333,19 @@ MonoBehaviour:
   walkSpeed: 3
   sprintSpeed: 6
   crouchSpeed: 1.5
+  carrySpeedMultiplier: 0.4
   jumpForce: 5
   gravity: -9.81
   normalHeight: 2
   crouchHeight: 1
   crouchTransitionSpeed: 10
+  firstPersonCam: {fileID: 0}
+  thirdPersonCam: {fileID: 0}
+  headRenderer: {fileID: 0}
+  giantTransform: {fileID: 0}
+  tensionDistance: 25
+  holdPosition: {fileID: 0}
+  interactionRange: 3
 --- !u!143 &467885420
 CharacterController:
   m_ObjectHideFlags: 0
